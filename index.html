@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Landing Page Design</title>
+    <!-- fontawesome css cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- animate on scroll(AOS) css cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <!-- brand -->
+        <a href="#" class="brand">
+            <i class="fas fa-tree"></i> xmas
+        </a>
+        <!-- menu open icon -->
+        <button class="menu" id="menu">
+            <i class="fas fa-ellipsis-v"></i>
+        </button>
+        <!-- full page navigation bar -->
+        <nav class="nav" id="nav">
+            <!-- menu close icon -->
+            <button class="close" id="close">
+                <i class="fas fa-times-circle"></i>
+            </button>
+            <ul>
+                <li>Home</li>
+                <li>Shop</li>
+                <li>Gifts</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- main content section -->
+    <section>
+        <div class="xmas-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h1>2nd</h1>
+            <h5>trouble of xmas</h5>
+            <h1>last minute</h1>
+            <h1>brainstormings</h1>
+            <button>buy gifts</button>
+        </div>
+        <div class="xmas-img" data-aos="zoom-out-up">
+            <img src="img/gifts.png" alt="gifts">
+        </div>
+    </section>
+
+    <!-- AOS JS cdn -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 900
+        });
+    </script>
+    <!-- my js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
